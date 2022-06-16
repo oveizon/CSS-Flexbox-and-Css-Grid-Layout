@@ -1,0 +1,92 @@
+
+main {
+    font-family:"Lexend Deca",sans-serif;
+    font-weight: 400;
+    font-size:15px ;
+    background-color:hsl(0, 0%, 95%);
+    display: flex;
+    width:60%;
+    height: 60vh;
+    justify-content: center;
+    margin:auto;
+    margin-top: 10%;
+    align-items:center;
+    
+
+}
+
+@media screen and (max-width: 375px){
+    /*mobile screens*/
+    main{ width: 100%;}
+}
+
+p {
+    color:hsla(0, 0%, 100%, 0.75);
+
+}
+
+h1 {
+    color:hsl(0, 0%, 95%);
+}
+.button {
+    background-color:hsl(0, 0%, 95%);
+    border-radius:20px;
+    cursor:pointer;
+    text-align:center;
+    align-items: flex-end; 
+    width: 8em;
+    height: 10%;
+ }
+
+ .buttona{
+    color:hsl(31, 77%, 52%);
+ }
+ .buttona:hover{
+    background-color:hsl(31, 77%, 52%) ;
+    color:hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%) ;
+ }
+ .a {
+    background-color: hsl(31, 77%, 52%);
+    padding:5%;
+    height: 100%;
+    box-sizing: content-box;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
+ }
+
+ .buttonb{
+    color:hsl(184, 100%, 22%);
+   
+ }
+ .buttonb:hover{
+    background-color:hsl(184, 100%, 22%) ;
+    color:hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%) ;
+ }
+
+ .b {
+    background-color:hsl(184, 100%, 22%) ;
+    padding:5%;
+    height: 100%;
+    box-sizing: content-box;
+    
+ }
+
+ .buttonc{
+    color:hsl(179, 100%, 13%);
+ }
+ .buttonc:hover{
+    background-color:hsl(179, 100%, 13%) ;
+    color:hsl(0, 0%, 95%);
+    border-color:hsl(0, 0%, 95%) ;
+ }
+
+ .c {
+    background-color:hsl(179, 100%, 13%) ;
+    padding:5%;
+    height: 100%;
+    box-sizing: content-box;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
+ }
